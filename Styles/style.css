@@ -1,0 +1,265 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: whitesmoke;
+}
+
+.logo-h1 {
+    font-family: sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.image-div {}
+
+.menu {
+    display: flex;
+    gap: 600px;
+    margin-right: 6%;
+    margin-left: -31%;
+}
+
+.Box {
+    box-shadow: 10px 10px 10px 10px gainsboro;
+    width: 112%;
+    padding: 4%;
+    border-radius: 5px;
+}
+
+.the-commander {
+    text-align: center;
+}
+
+
+.See-more {
+    text-decoration: none;
+    color: #E02C6D;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-align: end;
+    margin-right: 2%;
+}
+
+.thokano-img {
+    width: 500px;
+}
+
+.Box img {
+    width: 100%;
+}
+
+.Products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.right-div {
+    display: flex;
+    gap: 20px;
+}
+
+.fa-magnifying-glass,
+.fa-cart-shopping {
+    margin-top: 7%;
+}
+
+.Motivation-h1 {
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+.motivation-speech p {
+    font-weight: 800;
+}
+
+.motivation-a {
+    background-color: #E02C6D;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 9px 2%;
+    font-weight: 900;
+}
+
+hr {
+    width: 85%;
+}
+
+.motivation-speech {
+    display: flex;
+    gap: 400px;
+    justify-content: center;
+}
+
+.logo-section {
+    justify-content: center;
+    gap: 90px;
+    margin: 90px 0px 80px 0px;
+    display: flex;
+}
+
+.fa-star,
+.fa-star-half-stroke {
+    color: orange;
+}
+
+.All-blog {
+    color: #787885;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+.thokano-section {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    margin-top: 120px;
+    padding-bottom: 9%;
+}
+
+.thokano-h1 {
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #0A0826;
+}
+
+.thokano-paragraph {
+    color: #6C6C6C;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.thokano-a {
+    background-color: #E02C6D;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 2% 8%;
+}
+
+.footer {
+    background-color: #0A0826;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 2% 0px;
+}
+
+.footer h1 {
+    font-weight: 900;
+}
+
+.footer p {
+    color: #D9DBE1;
+    font-weight: 900;
+}
+
+.fa-instagram,
+.fa-globe,
+.fa-twitter,
+.fa-youtube {
+    background-color: #aaaaaa33;
+    padding: 10px 10px;
+    border-radius: 50px;
+}
+
+.fa-bars {
+    display: none;
+}
+
+/*         ----------------------------
+                  Responnsive 
+ ---------------------- */
+/*----------------------------------- 
+                Modile Devices
+---------------------------        */
+@media only screen and (max-width:688px) {
+    .Products {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px;
+    }
+
+    .Box {
+        gap: 0px;
+        margin: none;
+        margin-left: -50px;
+        width: 300px;
+    }
+
+    .thokano-section {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .footer {
+        padding: 8%;
+    }
+
+    .thokano-section img {
+        width: 100%;
+    }
+
+    .options {
+        display: none;
+    }
+
+    .menu {
+        width: 100%;
+        gap: 45px;
+        margin-left: 15px;
+    }
+
+    .motivation-speech {
+        flex-direction: column-reverse;
+        gap: 0px;
+        text-align: center;
+        justify-content: center;
+        margin: 0px 5%;
+        margin-bottom: 12%;
+    }
+
+    .fa-magnifying-glass {
+        display: none;
+    }
+
+    .image-div img {
+        width: 200px;
+    }
+
+    .another-div {
+        margin: 0px;
+    }
+
+    .image-div {
+        margin: 0px;
+    }
+
+    .logo-h1 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .fa-bars {
+        display: grid;
+
+    }
+
+    .logo-section {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .the-commander {
+        font-size: 20px;
+    }
+
+    .logo-section div img {
+        width: 60px;
+    }
+
+    .class {
+        text-align: center;
+    }
+}
